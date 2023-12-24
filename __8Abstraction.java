@@ -4,7 +4,7 @@ abstract class Vehicle{
 }
 
  class Bike extends Vehicle{
-    
+
   void start(){
     System.out.println("start with key and start with kick");
   }
@@ -28,10 +28,10 @@ public class __8Abstraction extends Vehicle{
          * 4. We cannot create object of abstract class.
          */
 
-         __8Abstraction a = new __8Abstraction();
-         Bike b = new Bike();
-         b.start();
-         a.start();
+        __8Abstraction a = new __8Abstraction();
+        Bike b = new Bike();
+        b.start();
+        a.start();
 
     }
 }
